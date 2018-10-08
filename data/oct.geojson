@@ -1,0 +1,1253 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.3911133,33.7483101 ]
+    },
+    "properties": {
+    "city":"Atlanta",
+    "state":"GA",
+    "days_precip":7,
+    "num_inches":3.4,
+    "days_snow":"-",
+    "num_inches":"-",
+    "percent_sun":66,
+    "num_cleardays":14,
+    "num_cloudydays":10,
+    "num_foggydays":12,
+    "high_temps":73,
+    "low_temps":54,
+    "name":"Atlanta, GA",
+    "desc":"Atlanta, GA",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.7429886,30.2675896 ]
+    },
+    "properties": {
+    "city":"Austin",
+    "state":"TX",
+    "days_precip":8,
+    "num_inches":3.9,
+    "days_snow":"-",
+    "num_inches":"-",
+    "percent_sun":64,
+    "num_cleardays":12,
+    "num_cloudydays":9,
+    "num_foggydays":12,
+    "high_temps":82,
+    "low_temps":61,
+    "name":"Austin, TX",
+    "desc":"Austin, TX",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.6092606,39.2905807 ]
+    },
+    "properties": {
+    "city":"Baltimore",
+    "state":"MD",
+    "days_precip":8,
+    "num_inches":3.3,
+    "days_snow":"-",
+    "num_inches":"-",
+    "percent_sun":58,
+    "num_cleardays":12,
+    "num_cloudydays":11,
+    "num_foggydays":12,
+    "high_temps":67,
+    "low_temps":45,
+    "name":"Baltimore, MD",
+    "desc":"Baltimore, MD",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -86.8117599,33.5206795 ]
+    },
+    "properties": {
+    "city":"Birmingham",
+    "state":"AL",
+    "days_precip":8,
+    "num_inches":3.4,
+    "days_snow":"-",
+    "num_inches":"-",
+    "percent_sun":66,
+    "num_cleardays":14,
+    "num_cloudydays":9,
+    "num_foggydays":14,
+    "high_temps":75,
+    "low_temps":53,
+    "name":"Birmingham, AL",
+    "desc":"Birmingham, AL",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0567398,42.3586617 ]
+    },
+    "properties": {
+    "city":"Boston",
+    "state":"MA",
+    "days_precip":9,
+    "num_inches":3.9,
+    "days_snow":"-",
+    "num_inches":"-",
+    "percent_sun":60,
+    "num_cleardays":11,
+    "num_cloudydays":12,
+    "num_foggydays":12,
+    "high_temps":61,
+    "low_temps":47,
+    "name":"Boston, MA",
+    "desc":"Boston, MA",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -78.8784637,42.8854408 ]
+    },
+    "properties": {
+    "city":"Buffalo",
+    "state":"NY",
+    "days_precip":13,
+    "num_inches":3.5,
+    "days_snow":"-",
+    "num_inches":"-",
+    "percent_sun":50,
+    "num_cleardays":6,
+    "num_cloudydays":16,
+    "num_foggydays":14,
+    "high_temps":59,
+    "low_temps":43,
+    "name":"Buffalo, NY",
+    "desc":"Buffalo, NY",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -80.8379593,35.2228584 ]
+    },
+    "properties": {
+    "city":"Charlotte",
+    "state":"NC",
+    "days_precip":7,
+    "num_inches":3.4,
+    "days_snow":"-",
+    "num_inches":"-",
+    "percent_sun":65,
+    "num_cleardays":13,
+    "num_cloudydays":10,
+    "num_foggydays":13,
+    "high_temps":72,
+    "low_temps":49,
+    "name":"Charlotte, NC",
+    "desc":"Charlotte, NC",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -87.6324463,41.8842506 ]
+    },
+    "properties": {
+    "city":"Chicago",
+    "state":"IL",
+    "days_precip":10,
+    "num_inches":3.2,
+    "days_snow":"-",
+    "num_inches":"-",
+    "percent_sun":55,
+    "num_cleardays":9,
+    "num_cloudydays":14,
+    "num_foggydays":11,
+    "high_temps":62,
+    "low_temps":43,
+    "name":"Chicago, IL",
+    "desc":"Chicago, IL",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.5041275,39.1071281 ]
+    },
+    "properties": {
+    "city":"Cincinnati",
+    "state":"OH",
+    "days_precip":10,
+    "num_inches":3.1,
+    "days_snow":"-",
+    "num_inches":"-",
+    "percent_sun":54,
+    "num_cleardays":10,
+    "num_cloudydays":13,
+    "num_foggydays":14,
+    "high_temps":68,
+    "low_temps":43,
+    "name":"Cincinnati, OH",
+    "desc":"Cincinnati, OH",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.6907425,41.5047302 ]
+    },
+    "properties": {
+    "city":"Cleveland",
+    "state":"OH",
+    "days_precip":11,
+    "num_inches":3.1,
+    "days_snow":"-",
+    "num_inches":"-",
+    "percent_sun":52,
+    "num_cleardays":8,
+    "num_cloudydays":15,
+    "num_foggydays":12,
+    "high_temps":62,
+    "low_temps":45,
+    "name":"Cleveland, OH",
+    "desc":"Cleveland, OH",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.0027466,39.9619904 ]
+    },
+    "properties": {
+    "city":"Columbus",
+    "state":"OH",
+    "days_precip":9,
+    "num_inches":2.6,
+    "days_snow":"-",
+    "num_inches":"-",
+    "percent_sun":56,
+    "num_cleardays":10,
+    "num_cloudydays":13,
+    "num_foggydays":14,
+    "high_temps":65,
+    "low_temps":45,
+    "name":"Columbus, OH",
+    "desc":"Columbus, OH",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.7954025,32.7781487 ]
+    },
+    "properties": {
+    "city":"Dallas",
+    "state":"TX",
+    "days_precip":8,
+    "num_inches":4.8,
+    "days_snow":"-",
+    "num_inches":"-",
+    "percent_sun":63,
+    "num_cleardays":14,
+    "num_cloudydays":10,
+    "num_foggydays":8,
+    "high_temps":79,
+    "low_temps":58,
+    "name":"Dallas, TX",
+    "desc":"Dallas, TX",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.9920197,39.7400093 ]
+    },
+    "properties": {
+    "city":"Denver",
+    "state":"CO",
+    "days_precip":5,
+    "num_inches":1.1,
+    "days_snow":"-",
+    "num_inches":"-",
+    "percent_sun":72,
+    "num_cleardays":13,
+    "num_cloudydays":9,
+    "num_foggydays":4,
+    "high_temps":65,
+    "low_temps":36,
+    "name":"Denver, CO",
+    "desc":"Denver, CO",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.0479965,42.3316803 ]
+    },
+    "properties": {
+    "city":"Detroit",
+    "state":"MI",
+    "days_precip":10,
+    "num_inches":2.5,
+    "days_snow":"-",
+    "num_inches":"-",
+    "percent_sun":51,
+    "num_cleardays":8,
+    "num_cloudydays":15,
+    "num_foggydays":15,
+    "high_temps":62,
+    "low_temps":43,
+    "name":"Detroit, MI",
+    "desc":"Detroit, MI",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.6740189,41.7634888 ]
+    },
+    "properties": {
+    "city":"Hartford",
+    "state":"CT",
+    "days_precip":10,
+    "num_inches":4.4,
+    "days_snow":"-",
+    "num_inches":"-",
+    "percent_sun":57,
+    "num_cleardays":9,
+    "num_cloudydays":13,
+    "num_foggydays":14,
+    "high_temps":63,
+    "low_temps":41,
+    "name":"Hartford, CT",
+    "desc":"Hartford, CT",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.3696823,29.7605801 ]
+    },
+    "properties": {
+    "city":"Houston",
+    "state":"TX",
+    "days_precip":8,
+    "num_inches":5.7,
+    "days_snow":"-",
+    "num_inches":"-",
+    "percent_sun":64,
+    "num_cleardays":11,
+    "num_cloudydays":11,
+    "num_foggydays":16,
+    "high_temps":82,
+    "low_temps":61,
+    "name":"Houston, TX",
+    "desc":"Houston, TX",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -86.1499634,39.7669106 ]
+    },
+    "properties": {
+    "city":"Indianapolis",
+    "state":"IN",
+    "days_precip":9,
+    "num_inches":3.1,
+    "days_snow":"-",
+    "num_inches":"-",
+    "percent_sun":61,
+    "num_cleardays":11,
+    "num_cloudydays":12,
+    "num_foggydays":14,
+    "high_temps":65,
+    "low_temps":45,
+    "name":"Indianapolis, IN",
+    "desc":"Indianapolis, IN",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.6562195,30.3314705 ]
+    },
+    "properties": {
+    "city":"Jacksonville",
+    "state":"FL",
+    "days_precip":8,
+    "num_inches":3.9,
+    "days_snow":"-",
+    "num_inches":"-",
+    "percent_sun":60,
+    "num_cleardays":10,
+    "num_cloudydays":12,
+    "num_foggydays":17,
+    "high_temps":80,
+    "low_temps":61,
+    "name":"Jacksonville, FL",
+    "desc":"Jacksonville, FL",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.583107,39.1034508 ]
+    },
+    "properties": {
+    "city":"Kansas City",
+    "state":"MO",
+    "days_precip":8,
+    "num_inches":3.5,
+    "days_snow":"-",
+    "num_inches":"-",
+    "percent_sun":60,
+    "num_cleardays":13,
+    "num_cloudydays":11,
+    "num_foggydays":10,
+    "high_temps":68,
+    "low_temps":49,
+    "name":"Kansas City, MO",
+    "desc":"Kansas City, MO",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -115.1399689,36.1719093 ]
+    },
+    "properties": {
+    "city":"Las Vegas",
+    "state":"NV",
+    "days_precip":2,
+    "num_inches":0.3,
+    "days_snow":"-",
+    "num_inches":"-",
+    "percent_sun":87,
+    "num_cleardays":20,
+    "num_cloudydays":4,
+    "num_foggydays":0,
+    "high_temps":81,
+    "low_temps":59,
+    "name":"Las Vegas, NV",
+    "desc":"Las Vegas, NV",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.2453232,34.0534897 ]
+    },
+    "properties": {
+    "city":"Los Angeles",
+    "state":"CA",
+    "days_precip":2,
+    "num_inches":0.6,
+    "days_snow":"-",
+    "num_inches":"-",
+    "percent_sun":73,
+    "num_cleardays":13,
+    "num_cloudydays":8,
+    "num_foggydays":10,
+    "high_temps":79,
+    "low_temps":59,
+    "name":"Los Angeles, CA",
+    "desc":"Los Angeles, CA",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -85.7664032,38.2548599 ]
+    },
+    "properties": {
+    "city":"Louisville",
+    "state":"KY",
+    "days_precip":8,
+    "num_inches":3.2,
+    "days_snow":"-",
+    "num_inches":"-",
+    "percent_sun":61,
+    "num_cleardays":12,
+    "num_cloudydays":12,
+    "num_foggydays":13,
+    "high_temps":70,
+    "low_temps":49,
+    "name":"Louisville, KY",
+    "desc":"Louisville, KY",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -90.0492477,35.1497612 ]
+    },
+    "properties": {
+    "city":"Memphis",
+    "state":"TN",
+    "days_precip":8,
+    "num_inches":4,
+    "days_snow":"-",
+    "num_inches":"-",
+    "percent_sun":70,
+    "num_cleardays":14,
+    "num_cloudydays":10,
+    "num_foggydays":9,
+    "high_temps":74,
+    "low_temps":54,
+    "name":"Memphis, TN",
+    "desc":"Memphis, TN",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -80.197731,25.7748108 ]
+    },
+    "properties": {
+    "city":"Miami",
+    "state":"FL",
+    "days_precip":13,
+    "num_inches":6.3,
+    "days_snow":"-",
+    "num_inches":"-",
+    "percent_sun":70,
+    "num_cleardays":7,
+    "num_cloudydays":10,
+    "num_foggydays":4,
+    "high_temps":86,
+    "low_temps":74,
+    "name":"Miami, FL",
+    "desc":"Miami, FL",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -87.906868,43.0419998 ]
+    },
+    "properties": {
+    "city":"Milwaukee",
+    "state":"WI",
+    "days_precip":10,
+    "num_inches":2.7,
+    "days_snow":"-",
+    "num_inches":"-",
+    "percent_sun":54,
+    "num_cleardays":9,
+    "num_cloudydays":13,
+    "num_foggydays":12,
+    "high_temps":59,
+    "low_temps":43,
+    "name":"Milwaukee, WI",
+    "desc":"Milwaukee, WI",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -93.2649384,44.9790192 ]
+    },
+    "properties": {
+    "city":"Minneapolis",
+    "state":"MN",
+    "days_precip":9,
+    "num_inches":2.4,
+    "days_snow":"-",
+    "num_inches":"-",
+    "percent_sun":55,
+    "num_cleardays":10,
+    "num_cloudydays":14,
+    "num_foggydays":9,
+    "high_temps":58,
+    "low_temps":40,
+    "name":"Minneapolis, MN",
+    "desc":"Minneapolis, MN",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -86.7781601,36.1678391 ]
+    },
+    "properties": {
+    "city":"Nashville",
+    "state":"TN",
+    "days_precip":8,
+    "num_inches":3,
+    "days_snow":"-",
+    "num_inches":"-",
+    "percent_sun":62,
+    "num_cleardays":13,
+    "num_cloudydays":10,
+    "num_foggydays":14,
+    "high_temps":72,
+    "low_temps":49,
+    "name":"Nashville, TN",
+    "desc":"Nashville, TN",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -90.0777512,29.9536991 ]
+    },
+    "properties": {
+    "city":"New Orleans",
+    "state":"LA",
+    "days_precip":8,
+    "num_inches":3.6,
+    "days_snow":"-",
+    "num_inches":"-",
+    "percent_sun":64,
+    "num_cleardays":14,
+    "num_cloudydays":9,
+    "num_foggydays":17,
+    "high_temps":80,
+    "low_temps":63,
+    "name":"New Orleans, LA",
+    "desc":"New Orleans, LA",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.0071411,40.71455 ]
+    },
+    "properties": {
+    "city":"New York",
+    "state":"NY",
+    "days_precip":9,
+    "num_inches":4.4,
+    "days_snow":"-",
+    "num_inches":"-",
+    "percent_sun":61,
+    "num_cleardays":12,
+    "num_cloudydays":9,
+    "num_foggydays":10,
+    "high_temps":64,
+    "low_temps":50,
+    "name":"New York, NY",
+    "desc":"New York, NY",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.5210724,35.4720306 ]
+    },
+    "properties": {
+    "city":"Oklahoma City",
+    "state":"OK",
+    "days_precip":8,
+    "num_inches":3.7,
+    "days_snow":"-",
+    "num_inches":"-",
+    "percent_sun":70,
+    "num_cleardays":14,
+    "num_cloudydays":10,
+    "num_foggydays":7,
+    "high_temps":73,
+    "low_temps":52,
+    "name":"Oklahoma City, OK",
+    "desc":"Oklahoma City, OK",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.162178,39.9522209 ]
+    },
+    "properties": {
+    "city":"Philadelphia",
+    "state":"PA",
+    "days_precip":9,
+    "num_inches":3.2,
+    "days_snow":"-",
+    "num_inches":"-",
+    "percent_sun":60,
+    "num_cleardays":11,
+    "num_cloudydays":12,
+    "num_foggydays":15,
+    "high_temps":67,
+    "low_temps":48,
+    "name":"Philadelphia, PA",
+    "desc":"Philadelphia, PA",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -112.075798,33.4482498 ]
+    },
+    "properties": {
+    "city":"Phoenix",
+    "state":"AZ",
+    "days_precip":2,
+    "num_inches":0.7,
+    "days_snow":"-",
+    "num_inches":"-",
+    "percent_sun":88,
+    "num_cleardays":20,
+    "num_cloudydays":4,
+    "num_foggydays":0,
+    "high_temps":89,
+    "low_temps":64,
+    "name":"Phoenix, AZ",
+    "desc":"Phoenix, AZ",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.9973373,40.4385109 ]
+    },
+    "properties": {
+    "city":"Pittsburgh",
+    "state":"PA",
+    "days_precip":11,
+    "num_inches":2.3,
+    "days_snow":"-",
+    "num_inches":"-",
+    "percent_sun":51,
+    "num_cleardays":8,
+    "num_cloudydays":14,
+    "num_foggydays":15,
+    "high_temps":63,
+    "low_temps":43,
+    "name":"Pittsburgh, PA",
+    "desc":"Pittsburgh, PA",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.6756287,45.5117912 ]
+    },
+    "properties": {
+    "city":"Portland",
+    "state":"OR",
+    "days_precip":14,
+    "num_inches":3.5,
+    "days_snow":"-",
+    "num_inches":"-",
+    "percent_sun":44,
+    "num_cleardays":5,
+    "num_cloudydays":18,
+    "num_foggydays":18,
+    "high_temps":64,
+    "low_temps":46,
+    "name":"Portland, OR",
+    "desc":"Portland, OR",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.4119873,41.8238716 ]
+    },
+    "properties": {
+    "city":"Providence",
+    "state":"RI",
+    "days_precip":9,
+    "num_inches":3.9,
+    "days_snow":"-",
+    "num_inches":"-",
+    "percent_sun":61,
+    "num_cleardays":11,
+    "num_cloudydays":12,
+    "num_foggydays":14,
+    "high_temps":63,
+    "low_temps":44,
+    "name":"Providence, RI",
+    "desc":"Providence, RI",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -78.6426697,35.785511 ]
+    },
+    "properties": {
+    "city":"Raleigh",
+    "state":"NC",
+    "days_precip":6,
+    "num_inches":3.6,
+    "days_snow":"-",
+    "num_inches":"-",
+    "percent_sun":60,
+    "num_cleardays":13,
+    "num_cloudydays":11,
+    "num_foggydays":17,
+    "high_temps":73,
+    "low_temps":50,
+    "name":"Raleigh, NC",
+    "desc":"Raleigh, NC",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.4336472,37.540699 ]
+    },
+    "properties": {
+    "city":"Richmond",
+    "state":"VA",
+    "days_precip":7,
+    "num_inches":3,
+    "days_snow":"-",
+    "num_inches":"-",
+    "percent_sun":63,
+    "num_cleardays":12,
+    "num_cloudydays":12,
+    "num_foggydays":17,
+    "high_temps":71,
+    "low_temps":48,
+    "name":"Richmond, VA",
+    "desc":"Richmond, VA",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.6163177,43.1557999 ]
+    },
+    "properties": {
+    "city":"Rochester",
+    "state":"NY",
+    "days_precip":13,
+    "num_inches":2,
+    "days_snow":"-",
+    "num_inches":"-",
+    "percent_sun":49,
+    "num_cleardays":6,
+    "num_cloudydays":16,
+    "num_foggydays":12,
+    "high_temps":60,
+    "low_temps":42,
+    "name":"Rochester, NY",
+    "desc":"Rochester, NY",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -121.4908981,38.5793304 ]
+    },
+    "properties": {
+    "city":"Sacramento",
+    "state":"CA",
+    "days_precip":4,
+    "num_inches":1,
+    "days_snow":"-",
+    "num_inches":"-",
+    "percent_sun":86,
+    "num_cleardays":19,
+    "num_cloudydays":6,
+    "num_foggydays":7,
+    "high_temps":78,
+    "low_temps":50,
+    "name":"Sacramento, CA",
+    "desc":"Sacramento, CA",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -111.8882217,40.7603111 ]
+    },
+    "properties": {
+    "city":"Salt Lake City",
+    "state":"UT",
+    "days_precip":7,
+    "num_inches":1.5,
+    "days_snow":"-",
+    "num_inches":"-",
+    "percent_sun":72,
+    "num_cleardays":14,
+    "num_cloudydays":9,
+    "num_foggydays":1,
+    "high_temps":65,
+    "low_temps":41,
+    "name":"Salt Lake City, UT",
+    "desc":"Salt Lake City, UT",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -98.4946136,29.4245796 ]
+    },
+    "properties": {
+    "city":"San Antonio",
+    "state":"TX",
+    "days_precip":7,
+    "num_inches":4.1,
+    "days_snow":"-",
+    "num_inches":"-",
+    "percent_sun":64,
+    "num_cleardays":11,
+    "num_cloudydays":9,
+    "num_foggydays":11,
+    "high_temps":82,
+    "low_temps":60,
+    "name":"San Antonio, TX",
+    "desc":"San Antonio, TX",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1617126,32.7156792 ]
+    },
+    "properties": {
+    "city":"San Diego",
+    "state":"CA",
+    "days_precip":3,
+    "num_inches":0.6,
+    "days_snow":"-",
+    "num_inches":"-",
+    "percent_sun":68,
+    "num_cleardays":14,
+    "num_cloudydays":8,
+    "num_foggydays":10,
+    "high_temps":73,
+    "low_temps":61,
+    "name":"San Diego, CA",
+    "desc":"San Diego, CA",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.4196396,37.7771187 ]
+    },
+    "properties": {
+    "city":"San Francisco",
+    "state":"CA",
+    "days_precip":3,
+    "num_inches":1,
+    "days_snow":"-",
+    "num_inches":"-",
+    "percent_sun":70,
+    "num_cleardays":16,
+    "num_cloudydays":7,
+    "num_foggydays":10,
+    "high_temps":69,
+    "low_temps":54,
+    "name":"San Francisco, CA",
+    "desc":"San Francisco, CA",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3294525,47.603569 ]
+    },
+    "properties": {
+    "city":"Seattle",
+    "state":"WA",
+    "days_precip":13,
+    "num_inches":3.4,
+    "days_snow":"-",
+    "num_inches":"-",
+    "percent_sun":43,
+    "num_cleardays":4,
+    "num_cloudydays":19,
+    "num_foggydays":19,
+    "high_temps":61,
+    "low_temps":47,
+    "name":"Seattle, WA",
+    "desc":"Seattle, WA",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -90.1995621,38.6277504 ]
+    },
+    "properties": {
+    "city":"St. Louis",
+    "state":"MO",
+    "days_precip":9,
+    "num_inches":3.3,
+    "days_snow":"-",
+    "num_inches":"-",
+    "percent_sun":60,
+    "num_cleardays":12,
+    "num_cloudydays":11,
+    "num_foggydays":14,
+    "high_temps":69,
+    "low_temps":49,
+    "name":"St. Louis, MO",
+    "desc":"St Louis, MO",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.4592667,27.9465294 ]
+    },
+    "properties": {
+    "city":"Tampa",
+    "state":"FL",
+    "days_precip":7,
+    "num_inches":2.3,
+    "days_snow":"-",
+    "num_inches":"-",
+    "percent_sun":66,
+    "num_cleardays":11,
+    "num_cloudydays":9,
+    "num_foggydays":9,
+    "high_temps":84,
+    "low_temps":68,
+    "name":"Tampa, FL",
+    "desc":"Tampa, FL",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.0596237,36.7552795 ]
+    },
+    "properties": {
+    "city":"Virginia Beach",
+    "state":"VA",
+    "days_precip":8,
+    "num_inches":3.4,
+    "days_snow":"-",
+    "num_inches":"-",
+    "percent_sun":59,
+    "num_cleardays":12,
+    "num_cloudydays":12,
+    "num_foggydays":14,
+    "high_temps":70,
+    "low_temps":54,
+    "name":"Virginia Beach, VA",
+    "desc":"Virginia Beach, VA",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.0172653,38.906189 ]
+    },
+    "properties": {
+    "city":"Washington, DC",
+    "state":"DC",
+    "days_precip":8,
+    "num_inches":3.4,
+    "days_snow":"-",
+    "num_inches":"-",
+    "percent_sun":59,
+    "num_cleardays":11,
+    "num_cloudydays":12,
+    "num_foggydays":13,
+    "high_temps":68,
+    "low_temps":51,
+    "name":"Washington, DC, DC",
+    "desc":"District of Columbia",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"state/province"
+    }
+  }
+]
+}

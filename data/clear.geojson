@@ -1,0 +1,1349 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.3911133,33.7483101 ]
+    },
+    "properties": {
+    "city":"Atlanta",
+    "state":"GA",
+    "January":8,
+    "February":8,
+    "March":9,
+    "April":10,
+    "May":9,
+    "June":8,
+    "July":6,
+    "August":7,
+    "September":10,
+    "October":14,
+    "November":12,
+    "December":9,
+    "name":"Atlanta, GA",
+    "desc":"Atlanta, GA",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.7429886,30.2675896 ]
+    },
+    "properties": {
+    "city":"Austin",
+    "state":"TX",
+    "January":9,
+    "February":8,
+    "March":9,
+    "April":8,
+    "May":6,
+    "June":8,
+    "July":12,
+    "August":12,
+    "September":11,
+    "October":12,
+    "November":11,
+    "December":10,
+    "name":"Austin, TX",
+    "desc":"Austin, TX",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.6092606,39.2905807 ]
+    },
+    "properties": {
+    "city":"Baltimore",
+    "state":"MD",
+    "January":8,
+    "February":8,
+    "March":8,
+    "April":8,
+    "May":8,
+    "June":8,
+    "July":9,
+    "August":9,
+    "September":11,
+    "October":12,
+    "November":8,
+    "December":8,
+    "name":"Baltimore, MD",
+    "desc":"Baltimore, MD",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -86.8117599,33.5206795 ]
+    },
+    "properties": {
+    "city":"Birmingham",
+    "state":"AL",
+    "January":7,
+    "February":7,
+    "March":7,
+    "April":9,
+    "May":8,
+    "June":7,
+    "July":5,
+    "August":7,
+    "September":9,
+    "October":14,
+    "November":10,
+    "December":8,
+    "name":"Birmingham, AL",
+    "desc":"Birmingham, AL",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0567398,42.3586617 ]
+    },
+    "properties": {
+    "city":"Boston",
+    "state":"MA",
+    "January":9,
+    "February":8,
+    "March":8,
+    "April":7,
+    "May":6,
+    "June":7,
+    "July":7,
+    "August":9,
+    "September":10,
+    "October":11,
+    "November":8,
+    "December":9,
+    "name":"Boston, MA",
+    "desc":"Boston, MA",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -78.8784637,42.8854408 ]
+    },
+    "properties": {
+    "city":"Buffalo",
+    "state":"NY",
+    "January":1,
+    "February":2,
+    "March":4,
+    "April":5,
+    "May":6,
+    "June":6,
+    "July":7,
+    "August":7,
+    "September":6,
+    "October":6,
+    "November":2,
+    "December":1,
+    "name":"Buffalo, NY",
+    "desc":"Buffalo, NY",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -80.8379593,35.2228584 ]
+    },
+    "properties": {
+    "city":"Charlotte",
+    "state":"NC",
+    "January":9,
+    "February":8,
+    "March":9,
+    "April":10,
+    "May":8,
+    "June":7,
+    "July":7,
+    "August":7,
+    "September":9,
+    "October":13,
+    "November":11,
+    "December":10,
+    "name":"Charlotte, NC",
+    "desc":"Charlotte, NC",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -87.6324463,41.8842506 ]
+    },
+    "properties": {
+    "city":"Chicago",
+    "state":"IL",
+    "January":7,
+    "February":6,
+    "March":5,
+    "April":6,
+    "May":7,
+    "June":7,
+    "July":8,
+    "August":9,
+    "September":9,
+    "October":9,
+    "November":5,
+    "December":6,
+    "name":"Chicago, IL",
+    "desc":"Chicago, IL",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.5041275,39.1071281 ]
+    },
+    "properties": {
+    "city":"Cincinnati",
+    "state":"OH",
+    "January":5,
+    "February":5,
+    "March":5,
+    "April":6,
+    "May":6,
+    "June":7,
+    "July":8,
+    "August":8,
+    "September":10,
+    "October":10,
+    "November":6,
+    "December":5,
+    "name":"Cincinnati, OH",
+    "desc":"Cincinnati, OH",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.6907425,41.5047302 ]
+    },
+    "properties": {
+    "city":"Cleveland",
+    "state":"OH",
+    "January":3,
+    "February":3,
+    "March":5,
+    "April":5,
+    "May":6,
+    "June":7,
+    "July":8,
+    "August":9,
+    "September":8,
+    "October":8,
+    "November":3,
+    "December":3,
+    "name":"Cleveland, OH",
+    "desc":"Cleveland, OH",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.0027466,39.9619904 ]
+    },
+    "properties": {
+    "city":"Columbus",
+    "state":"OH",
+    "January":4,
+    "February":4,
+    "March":5,
+    "April":5,
+    "May":6,
+    "June":6,
+    "July":7,
+    "August":7,
+    "September":9,
+    "October":10,
+    "November":5,
+    "December":4,
+    "name":"Columbus, OH",
+    "desc":"Columbus, OH",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.7954025,32.7781487 ]
+    },
+    "properties": {
+    "city":"Dallas",
+    "state":"TX",
+    "January":10,
+    "February":10,
+    "March":10,
+    "April":9,
+    "May":8,
+    "June":11,
+    "July":15,
+    "August":15,
+    "September":13,
+    "October":14,
+    "November":12,
+    "December":11,
+    "name":"Dallas, TX",
+    "desc":"Dallas, TX",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.9920197,39.7400093 ]
+    },
+    "properties": {
+    "city":"Denver",
+    "state":"CO",
+    "January":10,
+    "February":8,
+    "March":8,
+    "April":7,
+    "May":6,
+    "June":10,
+    "July":9,
+    "August":10,
+    "September":13,
+    "October":13,
+    "November":10,
+    "December":11,
+    "name":"Denver, CO",
+    "desc":"Denver, CO",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.0479965,42.3316803 ]
+    },
+    "properties": {
+    "city":"Detroit",
+    "state":"MI",
+    "January":4,
+    "February":5,
+    "March":6,
+    "April":6,
+    "May":7,
+    "June":8,
+    "July":9,
+    "August":9,
+    "September":8,
+    "October":8,
+    "November":4,
+    "December":3,
+    "name":"Detroit, MI",
+    "desc":"Detroit, MI",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.6740189,41.7634888 ]
+    },
+    "properties": {
+    "city":"Hartford",
+    "state":"CT",
+    "January":8,
+    "February":7,
+    "March":7,
+    "April":6,
+    "May":6,
+    "June":6,
+    "July":6,
+    "August":7,
+    "September":8,
+    "October":9,
+    "November":6,
+    "December":7,
+    "name":"Hartford, CT",
+    "desc":"Hartford, CT",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.3696823,29.7605801 ]
+    },
+    "properties": {
+    "city":"Houston",
+    "state":"TX",
+    "January":7,
+    "February":7,
+    "March":7,
+    "April":7,
+    "May":6,
+    "June":7,
+    "July":7,
+    "August":6,
+    "September":9,
+    "October":11,
+    "November":9,
+    "December":7,
+    "name":"Houston, TX",
+    "desc":"Houston, TX",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -86.1499634,39.7669106 ]
+    },
+    "properties": {
+    "city":"Indianapolis",
+    "state":"IN",
+    "January":6,
+    "February":6,
+    "March":6,
+    "April":6,
+    "May":7,
+    "June":7,
+    "July":8,
+    "August":9,
+    "September":11,
+    "October":11,
+    "November":6,
+    "December":5,
+    "name":"Indianapolis, IN",
+    "desc":"Indianapolis, IN",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.6562195,30.3314705 ]
+    },
+    "properties": {
+    "city":"Jacksonville",
+    "state":"FL",
+    "January":9,
+    "February":9,
+    "March":9,
+    "April":10,
+    "May":9,
+    "June":5,
+    "July":5,
+    "August":5,
+    "September":5,
+    "October":10,
+    "November":10,
+    "December":9,
+    "name":"Jacksonville, FL",
+    "desc":"Jacksonville, FL",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.583107,39.1034508 ]
+    },
+    "properties": {
+    "city":"Kansas City",
+    "state":"MO",
+    "January":10,
+    "February":8,
+    "March":8,
+    "April":9,
+    "May":8,
+    "June":10,
+    "July":13,
+    "August":12,
+    "September":12,
+    "October":13,
+    "November":9,
+    "December":10,
+    "name":"Kansas City, MO",
+    "desc":"Kansas City, MO",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -115.1399689,36.1719093 ]
+    },
+    "properties": {
+    "city":"Las Vegas",
+    "state":"NV",
+    "January":14,
+    "February":12,
+    "March":14,
+    "April":16,
+    "May":18,
+    "June":22,
+    "July":20,
+    "August":22,
+    "September":22,
+    "October":20,
+    "November":16,
+    "December":15,
+    "name":"Las Vegas, NV",
+    "desc":"Las Vegas, NV",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.2453232,34.0534897 ]
+    },
+    "properties": {
+    "city":"Los Angeles",
+    "state":"CA",
+    "January":12,
+    "February":11,
+    "March":12,
+    "April":11,
+    "May":10,
+    "June":10,
+    "July":13,
+    "August":14,
+    "September":13,
+    "October":13,
+    "November":15,
+    "December":13,
+    "name":"Los Angeles, CA",
+    "desc":"Los Angeles, CA",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -85.7664032,38.2548599 ]
+    },
+    "properties": {
+    "city":"Louisville",
+    "state":"KY",
+    "January":6,
+    "February":6,
+    "March":6,
+    "April":6,
+    "May":8,
+    "June":8,
+    "July":8,
+    "August":10,
+    "September":10,
+    "October":12,
+    "November":7,
+    "December":6,
+    "name":"Louisville, KY",
+    "desc":"Louisville, KY",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -90.0492477,35.1497612 ]
+    },
+    "properties": {
+    "city":"Memphis",
+    "state":"TN",
+    "January":8,
+    "February":8,
+    "March":8,
+    "April":9,
+    "May":8,
+    "June":10,
+    "July":10,
+    "August":12,
+    "September":12,
+    "October":14,
+    "November":10,
+    "December":9,
+    "name":"Memphis, TN",
+    "desc":"Memphis, TN",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -80.197731,25.7748108 ]
+    },
+    "properties": {
+    "city":"Miami",
+    "state":"FL",
+    "January":9,
+    "February":8,
+    "March":9,
+    "April":8,
+    "May":6,
+    "June":3,
+    "July":3,
+    "August":2,
+    "September":2,
+    "October":7,
+    "November":8,
+    "December":9,
+    "name":"Miami, FL",
+    "desc":"Miami, FL",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -87.906868,43.0419998 ]
+    },
+    "properties": {
+    "city":"Milwaukee",
+    "state":"WI",
+    "January":7,
+    "February":6,
+    "March":6,
+    "April":6,
+    "May":7,
+    "June":8,
+    "July":10,
+    "August":10,
+    "September":9,
+    "October":9,
+    "November":5,
+    "December":6,
+    "name":"Milwaukee, WI",
+    "desc":"Milwaukee, WI",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -93.2649384,44.9790192 ]
+    },
+    "properties": {
+    "city":"Minneapolis",
+    "state":"MN",
+    "January":8,
+    "February":8,
+    "March":7,
+    "April":7,
+    "May":7,
+    "June":7,
+    "July":10,
+    "August":10,
+    "September":10,
+    "October":10,
+    "November":5,
+    "December":6,
+    "name":"Minneapolis, MN",
+    "desc":"Minneapolis, MN",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -86.7781601,36.1678391 ]
+    },
+    "properties": {
+    "city":"Nashville",
+    "state":"TN",
+    "January":6,
+    "February":7,
+    "March":8,
+    "April":8,
+    "May":8,
+    "June":8,
+    "July":8,
+    "August":10,
+    "September":11,
+    "October":13,
+    "November":9,
+    "December":7,
+    "name":"Nashville, TN",
+    "desc":"Nashville, TN",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -90.0777512,29.9536991 ]
+    },
+    "properties": {
+    "city":"New Orleans",
+    "state":"LA",
+    "January":7,
+    "February":8,
+    "March":8,
+    "April":8,
+    "May":9,
+    "June":8,
+    "July":5,
+    "August":7,
+    "September":10,
+    "October":14,
+    "November":10,
+    "December":8,
+    "name":"New Orleans, LA",
+    "desc":"New Orleans, LA",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.0071411,40.71455 ]
+    },
+    "properties": {
+    "city":"New York",
+    "state":"NY",
+    "January":8,
+    "February":8,
+    "March":9,
+    "April":8,
+    "May":8,
+    "June":8,
+    "July":8,
+    "August":9,
+    "September":11,
+    "October":12,
+    "November":9,
+    "December":9,
+    "name":"New York, NY",
+    "desc":"New York, NY",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.5210724,35.4720306 ]
+    },
+    "properties": {
+    "city":"Oklahoma City",
+    "state":"OK",
+    "January":11,
+    "February":9,
+    "March":10,
+    "April":9,
+    "May":9,
+    "June":10,
+    "July":15,
+    "August":14,
+    "September":13,
+    "October":14,
+    "November":12,
+    "December":12,
+    "name":"Oklahoma City, OK",
+    "desc":"Oklahoma City, OK",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.162178,39.9522209 ]
+    },
+    "properties": {
+    "city":"Philadelphia",
+    "state":"PA",
+    "January":7,
+    "February":7,
+    "March":8,
+    "April":7,
+    "May":6,
+    "June":7,
+    "July":7,
+    "August":8,
+    "September":10,
+    "October":11,
+    "November":7,
+    "December":7,
+    "name":"Philadelphia, PA",
+    "desc":"Philadelphia, PA",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -112.075798,33.4482498 ]
+    },
+    "properties": {
+    "city":"Phoenix",
+    "state":"AZ",
+    "January":14,
+    "February":13,
+    "March":14,
+    "April":17,
+    "May":21,
+    "June":23,
+    "July":17,
+    "August":18,
+    "September":22,
+    "October":20,
+    "November":18,
+    "December":15,
+    "name":"Phoenix, AZ",
+    "desc":"Phoenix, AZ",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.9973373,40.4385109 ]
+    },
+    "properties": {
+    "city":"Pittsburgh",
+    "state":"PA",
+    "January":3,
+    "February":3,
+    "March":4,
+    "April":4,
+    "May":5,
+    "June":5,
+    "July":5,
+    "August":7,
+    "September":7,
+    "October":8,
+    "November":4,
+    "December":3,
+    "name":"Pittsburgh, PA",
+    "desc":"Pittsburgh, PA",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.6756287,45.5117912 ]
+    },
+    "properties": {
+    "city":"Portland",
+    "state":"OR",
+    "January":3,
+    "February":3,
+    "March":3,
+    "April":3,
+    "May":5,
+    "June":6,
+    "July":13,
+    "August":11,
+    "September":10,
+    "October":5,
+    "November":3,
+    "December":2,
+    "name":"Portland, OR",
+    "desc":"Portland, OR",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.4119873,41.8238716 ]
+    },
+    "properties": {
+    "city":"Providence",
+    "state":"RI",
+    "January":10,
+    "February":8,
+    "March":8,
+    "April":7,
+    "May":6,
+    "June":7,
+    "July":7,
+    "August":8,
+    "September":9,
+    "October":11,
+    "November":8,
+    "December":8,
+    "name":"Providence, RI",
+    "desc":"Providence, RI",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -78.6426697,35.785511 ]
+    },
+    "properties": {
+    "city":"Raleigh",
+    "state":"NC",
+    "January":9,
+    "February":9,
+    "March":9,
+    "April":10,
+    "May":8,
+    "June":8,
+    "July":7,
+    "August":7,
+    "September":10,
+    "October":13,
+    "November":11,
+    "December":10,
+    "name":"Raleigh, NC",
+    "desc":"Raleigh, NC",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.4336472,37.540699 ]
+    },
+    "properties": {
+    "city":"Richmond",
+    "state":"VA",
+    "January":8,
+    "February":8,
+    "March":8,
+    "April":8,
+    "May":7,
+    "June":7,
+    "July":7,
+    "August":7,
+    "September":9,
+    "October":12,
+    "November":9,
+    "December":9,
+    "name":"Richmond, VA",
+    "desc":"Richmond, VA",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.6163177,43.1557999 ]
+    },
+    "properties": {
+    "city":"Rochester",
+    "state":"NY",
+    "January":2,
+    "February":2,
+    "March":5,
+    "April":6,
+    "May":6,
+    "June":7,
+    "July":8,
+    "August":8,
+    "September":7,
+    "October":6,
+    "November":2,
+    "December":2,
+    "name":"Rochester, NY",
+    "desc":"Rochester, NY",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -121.4908981,38.5793304 ]
+    },
+    "properties": {
+    "city":"Sacramento",
+    "state":"CA",
+    "January":7,
+    "February":8,
+    "March":10,
+    "April":12,
+    "May":17,
+    "June":22,
+    "July":27,
+    "August":26,
+    "September":24,
+    "October":19,
+    "November":10,
+    "December":8,
+    "name":"Sacramento, CA",
+    "desc":"Sacramento, CA",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -111.8882217,40.7603111 ]
+    },
+    "properties": {
+    "city":"Salt Lake City",
+    "state":"UT",
+    "January":6,
+    "February":5,
+    "March":7,
+    "April":7,
+    "May":9,
+    "June":14,
+    "July":17,
+    "August":16,
+    "September":16,
+    "October":14,
+    "November":8,
+    "December":6,
+    "name":"Salt Lake City, UT",
+    "desc":"Salt Lake City, UT",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -98.4946136,29.4245796 ]
+    },
+    "properties": {
+    "city":"San Antonio",
+    "state":"TX",
+    "January":9,
+    "February":8,
+    "March":9,
+    "April":7,
+    "May":6,
+    "June":7,
+    "July":9,
+    "August":10,
+    "September":9,
+    "October":11,
+    "November":10,
+    "December":10,
+    "name":"San Antonio, TX",
+    "desc":"San Antonio, TX",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1617126,32.7156792 ]
+    },
+    "properties": {
+    "city":"San Diego",
+    "state":"CA",
+    "January":12,
+    "February":10,
+    "March":11,
+    "April":10,
+    "May":8,
+    "June":9,
+    "July":13,
+    "August":15,
+    "September":15,
+    "October":14,
+    "November":15,
+    "December":14,
+    "name":"San Diego, CA",
+    "desc":"San Diego, CA",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.4196396,37.7771187 ]
+    },
+    "properties": {
+    "city":"San Francisco",
+    "state":"CA",
+    "January":9,
+    "February":8,
+    "March":10,
+    "April":11,
+    "May":14,
+    "June":16,
+    "July":21,
+    "August":19,
+    "September":18,
+    "October":16,
+    "November":11,
+    "December":9,
+    "name":"San Francisco, CA",
+    "desc":"San Francisco, CA",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3294525,47.603569 ]
+    },
+    "properties": {
+    "city":"Seattle",
+    "state":"WA",
+    "January":3,
+    "February":3,
+    "March":3,
+    "April":3,
+    "May":4,
+    "June":5,
+    "July":10,
+    "August":9,
+    "September":8,
+    "October":4,
+    "November":2,
+    "December":2,
+    "name":"Seattle, WA",
+    "desc":"Seattle, WA",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -90.1995621,38.6277504 ]
+    },
+    "properties": {
+    "city":"St. Louis",
+    "state":"MO",
+    "January":7,
+    "February":7,
+    "March":6,
+    "April":7,
+    "May":7,
+    "June":7,
+    "July":9,
+    "August":10,
+    "September":11,
+    "October":12,
+    "November":9,
+    "December":7,
+    "name":"St. Louis, MO",
+    "desc":"St Louis, MO",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.4592667,27.9465294 ]
+    },
+    "properties": {
+    "city":"Tampa",
+    "state":"FL",
+    "January":10,
+    "February":9,
+    "March":11,
+    "April":11,
+    "May":11,
+    "June":6,
+    "July":3,
+    "August":3,
+    "September":5,
+    "October":11,
+    "November":12,
+    "December":10,
+    "name":"Tampa, FL",
+    "desc":"Tampa, FL",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.0596237,36.7552795 ]
+    },
+    "properties": {
+    "city":"Virginia Beach",
+    "state":"VA",
+    "January":9,
+    "February":8,
+    "March":9,
+    "April":9,
+    "May":8,
+    "June":7,
+    "July":7,
+    "August":8,
+    "September":9,
+    "October":12,
+    "November":10,
+    "December":9,
+    "name":"Virginia Beach, VA",
+    "desc":"Virginia Beach, VA",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"city/town"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.0172653,38.906189 ]
+    },
+    "properties": {
+    "city":"Washington, DC",
+    "state":"DC",
+    "January":7,
+    "February":7,
+    "March":7,
+    "April":7,
+    "May":7,
+    "June":7,
+    "July":7,
+    "August":9,
+    "September":10,
+    "October":11,
+    "November":8,
+    "December":8,
+    "name":"Washington, DC, DC",
+    "desc":"District of Columbia",
+    "color":"",
+    "source":"Bing Maps",
+    "precision":"state/province"
+    }
+  }
+]
+}

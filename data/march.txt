@@ -1,0 +1,49 @@
+city,state,days_precip,num_inches,days_snow,num_inches,percent_sun,num_cleardays,num_cloudydays,num_foggydays,high_temps,low_temps,latitude,longitude,name,desc,color,source,precision
+Atlanta,GA,10,4.8,0.3,0.8,58,9,15,12,65,44,33.7483101,-84.3911133,"Atlanta, GA","Atlanta, GA",,Bing Maps,city/town
+Austin,TX,9,2.8,0,0,55,9,15,12,72,51,30.2675896,-97.7429886,"Austin, TX","Austin, TX",,Bing Maps,city/town
+Baltimore,MD,10,3.9,1.1,1.9,56,8,14,10,54,34,39.2905807,-76.6092606,"Baltimore, MD","Baltimore, MD",,Bing Maps,city/town
+Birmingham,AL,10,5.2,0.2,0.6,54,7,16,14,67,44,33.5206795,-86.8117599,"Birmingham, AL","Birmingham, AL",,Bing Maps,city/town
+Boston,MA,12,4.3,4.2,7.8,57,8,15,12,45,31,42.3586617,-71.0567398,"Boston, MA","Boston, MA",,Bing Maps,city/town
+Buffalo,NY,15,2.9,9.2,12.9,46,4,19,15,42,26,42.8854408,-78.8784637,"Buffalo, NY","Buffalo, NY",,Bing Maps,city/town
+Charlotte,NC,10,4,0.2,0.6,61,9,14,12,63,39,35.2228584,-80.8379593,"Charlotte, NC","Charlotte, NC",,Bing Maps,city/town
+Chicago,IL,11,2.5,4.3,5.6,51,5,18,12,47,29,41.8842506,-87.6324463,"Chicago, IL","Chicago, IL",,Bing Maps,city/town
+Cincinnati,OH,12,3.9,1.1,1.8,48,5,19,12,55,33,39.1071281,-84.5041275,"Cincinnati, OH","Cincinnati, OH",,Bing Maps,city/town
+Cleveland,OH,14,2.9,7.5,12.6,45,5,20,14,47,30,41.5047302,-81.6907425,"Cleveland, OH","Cleveland, OH",,Bing Maps,city/town
+Columbus,OH,13,3,4.7,4.4,44,5,19,12,51,33,39.9619904,-83.0027466,"Columbus, OH","Columbus, OH",,Bing Maps,city/town
+Dallas,TX,8,3.5,0.2,0.1,58,10,14,9,69,49,32.7781487,-96.7954025,"Dallas, TX","Dallas, TX",,Bing Maps,city/town
+Denver,CO,7,1.3,5.8,10.7,69,8,13,7,54,26,39.7400093,-104.9920197,"Denver, CO","Denver, CO",,Bing Maps,city/town
+Detroit,MI,12,2.3,5.4,6.9,52,6,18,13,46,29,42.3316803,-83.0479965,"Detroit, MI","Detroit, MI",,Bing Maps,city/town
+Hartford,CT,12,3.6,3.5,6.4,57,7,16,12,48,28,41.7634888,-72.6740189,"Hartford, CT","Hartford, CT",,Bing Maps,city/town
+Houston,TX,9,3.4,0,0,54,7,18,18,73,53,29.7605801,-95.3696823,"Houston, TX","Houston, TX",,Bing Maps,city/town
+Indianapolis,IN,12,3.6,2.5,2.6,50,6,18,14,52,33,39.7669106,-86.1499634,"Indianapolis, IN","Indianapolis, IN",,Bing Maps,city/town
+Jacksonville,FL,8,4,0,0,68,9,13,17,74,50,30.3314705,-81.6562195,"Jacksonville, FL","Jacksonville, FL",,Bing Maps,city/town
+Kansas City,MO,8,2.2,0.6,0.9,58,8,16,12,56,36,39.1034508,-94.583107,"Kansas City, MO","Kansas City, MO",,Bing Maps,city/town
+Las Vegas,NV,3,0.4,0,0,83,14,9,0,70,49,36.1719093,-115.1399689,"Las Vegas, NV","Las Vegas, NV",,Bing Maps,city/town
+Los Angeles,CA,6,1.9,0,0,73,12,11,7,70,51,34.0534897,-118.2453232,"Los Angeles, CA","Los Angeles, CA",,Bing Maps,city/town
+Louisville,KY,12,4.2,1.2,1.4,51,6,18,11,58,38,38.2548599,-85.7664032,"Louisville, KY","Louisville, KY",,Bing Maps,city/town
+Memphis,TN,11,5.2,0.4,0.4,56,8,17,10,64,44,35.1497612,-90.0492477,"Memphis, TN","Memphis, TN",,Bing Maps,city/town
+Miami,FL,7,3,0,0,74,9,8,4,80,65,25.7748108,-80.197731,"Miami, FL","Miami, FL",,Bing Maps,city/town
+Milwaukee,WI,11,2.3,5.6,7,50,6,17,13,42,28,43.0419998,-87.906868,"Milwaukee, WI","Milwaukee, WI",,Bing Maps,city/town
+Minneapolis,MN,9,1.9,5.4,10.2,57,7,17,10,41,24,44.9790192,-93.2649384,"Minneapolis, MN","Minneapolis, MN",,Bing Maps,city/town
+Nashville,TN,11,4.1,0.7,0.9,52,8,16,11,61,39,36.1678391,-86.7781601,"Nashville, TN","Nashville, TN",,Bing Maps,city/town
+New Orleans,LA,8,4.6,0,0,56,8,15,18,72,54,29.9536991,-90.0777512,"New Orleans, LA","New Orleans, LA",,Bing Maps,city/town
+New York,NY,11,4.4,1.7,3.6,57,9,12,11,50,35,40.71455,-74.0071411,"New York, NY","New York, NY",,Bing Maps,city/town
+Oklahoma City,OK,8,3.1,0.6,0.9,65,10,13,10,63,41,35.4720306,-97.5210724,"Oklahoma City, OK","Oklahoma City, OK",,Bing Maps,city/town
+Philadelphia,PA,11,3.8,1.8,2.9,55,8,15,12,53,34,39.9522209,-75.162178,"Philadelphia, PA","Philadelphia, PA",,Bing Maps,city/town
+Phoenix,AZ,4,1.1,0,0,84,14,8,1,78,54,33.4482498,-112.075798,"Phoenix, AZ","Phoenix, AZ",,Bing Maps,city/town
+Pittsburgh,PA,14,3,6,7.6,43,4,20,13,49,30,40.4385109,-79.9973373,"Pittsburgh, PA","Pittsburgh, PA",,Bing Maps,city/town
+Portland,OR,19,4.5,0,0,48,3,23,9,7,39,45.5117912,-122.6756287,"Portland, OR","Portland, OR",,Bing Maps,city/town
+Providence,RI,12,5,5.5,5.5,58,8,15,13,48,30,41.8238716,-71.4119873,"Providence, RI","Providence, RI",,Bing Maps,city/town
+Raleigh,NC,9,4.3,0.1,0.1,60,9,14,13,63,39,35.785511,-78.6426697,"Raleigh, NC","Raleigh, NC",,Bing Maps,city/town
+Richmond,VA,10,4,0.6,0.6,62,8,15,12,60,37,37.540699,-77.4336472,"Richmond, VA","Richmond, VA",,Bing Maps,city/town
+Rochester,NY,15,2.5,16.3,16.3,49,5,18,10,43,26,43.1557999,-77.6163177,"Rochester, NY","Rochester, NY",,Bing Maps,city/town
+Sacramento,CA,9,2.8,0,0,74,10,12,9,65,44,38.5793304,-121.4908981,"Sacramento, CA","Sacramento, CA",,Bing Maps,city/town
+Salt Lake City,UT,10,1.8,6.5,6.5,64,7,16,3,54,34,40.7603111,-111.8882217,"Salt Lake City, UT","Salt Lake City, UT",,Bing Maps,city/town
+San Antonio,TX,9,2.3,0,0,57,9,15,13,74,51,29.4245796,-98.4946136,"San Antonio, TX","San Antonio, TX",,Bing Maps,city/town
+San Diego,CA,7,1.8,0,0,70,11,11,8,66,53,32.7156792,-117.1617126,"San Diego, CA","San Diego, CA",,Bing Maps,city/town
+San Francisco,CA,11,3,0,0,69,10,13,8,62,49,37.7771187,-122.4196396,"San Francisco, CA","San Francisco, CA",,Bing Maps,city/town
+Seattle,WA,17,3.9,0,0,50,3,22,13,55,40,47.603569,-122.3294525,"Seattle, WA","Seattle, WA",,Bing Maps,city/town
+St. Louis,MO,10,3.3,2.3,2.3,54,6,16,14,56,37,38.6277504,-90.1995621,"St. Louis, MO","St Louis, MO",,Bing Maps,city/town
+Tampa,FL,7,3,0,0,71,11,10,13,76,58,27.9465294,-82.4592667,"Tampa, FL","Tampa, FL",,Bing Maps,city/town
+Virginia Beach,VA,11,3.7,0.2,0.2,60,9,15,12,58,41,36.7552795,-76.0596237,"Virginia Beach, VA","Virginia Beach, VA",,Bing Maps,city/town
+"Washington, DC",DC,11,3.5,1.3,1.3,55,7,15,10,56,38,38.906189,-77.0172653,"Washington, DC, DC",District of Columbia,,Bing Maps,state/province

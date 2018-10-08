@@ -1,0 +1,82 @@
+/* Stylesheet by Lily C. Newell, 2018*/
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#mapid {
+    height: 100%;
+    width: 150%;
+    margin: 0px auto;
+    position: center;
+    padding: 5px;
+    border: 1px solid blue;
+    display: inline-block;
+}
+
+#panel {
+    width: 20%;
+    padding: 20px;
+    display: inline-block;
+	vertical-align: bottom;
+    text-align: center;
+    line-height: 42px;
+}
+
+#outerdiv {
+    width: 80%;
+    height: 80%;
+    position: fixed;
+    text-align: center;
+    background-color: #fee0d2;
+}
+header.global{
+    padding: 1px;
+}
+
+header {
+    font-family: 'cabinregular', sans-serif;
+    background-color: #e5f5e0;
+    font-size: 50%;
+    text-align: center;
+}
+
+
+ .range-slider {
+     width: 45%;
+ }
+
+ #skip {
+     float: right;
+ }
+
+ #reverse {
+     float: left;
+ }
+.sequence-control-container{
+    width: 350px;
+    height: 30px;
+    background-color: rgba(255,255,255,0.8);
+    padding: 10px;
+    line-height: 45px;
+    text-align: center;
+    border: solid gray 1px;
+}
+.search-bar{
+    width: 200px;
+    height: 20px;
+    text-align: center;
+}
+.leaflet-popup-content p {
+    font-family: 'cabinregular', sans-serif;
+    font-size: 12px;
+};
+
+.legend-control-container{
+    width: 400px;
+    height: 400px;
+    background-color: rgba(255,255,255,0.8);
+    padding: 10px;
+    text-align: left;
+    border: solid gray 2.5px;
+}
