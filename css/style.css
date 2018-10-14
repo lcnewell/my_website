@@ -6,7 +6,7 @@ body {
 
 #mapid {
     height: 100%;
-    width: 150%;
+    width: 100%;
     margin: 0px auto;
     position: center;
     padding: 5px;
@@ -28,7 +28,6 @@ body {
     height: 80%;
     position: fixed;
     text-align: center;
-    background-color: #fee0d2;
 }
 header.global{
     padding: 1px;

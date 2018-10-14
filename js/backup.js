@@ -14,11 +14,11 @@ getData(map);
 
 };
 //add circle features to map
-function createPropSymbols(data, map, attributes){
+function createPropSymbols(data, map, attributes, index){
     //create a Leaflet GeoJSON layer and add it to the map
     L.geoJSON(data, {
         pointToLayer: function(feature, latlng){
-            return pointToLayer(feature, latlng, attributes);
+            return pointToLayer(feature, latlng, attributes, index);
         }
     }).addTo(map);
 };
@@ -32,8 +32,8 @@ function calcPropRadius(attValue){
 
 
 //create point to layer
-function pointToLayer(feature, latlng, attributes){
-    var attribute = attributes[0];
+function pointToLayer(feature, latlng, attributes, index){
+    var attribute = attributes[index];
     var options = {
         fillColor: "#c51b8a",
         color: "#000",
@@ -56,7 +56,7 @@ function pointToLayer(feature, latlng, attributes){
             this.closePopup();
         },
         click: function(){
-            $('#tools').html(popupContent);
+            $('#panel').html(popupContent);
         }
     });
     return layer;
@@ -69,18 +69,28 @@ function createSequenceControls(map, attributes){
         },
         onAdd: function(map){
             var container = L.DomUtil.create('div', 'sequence-control-container');
-            $(container).append('<input class="range-slider" type="range" max="12" step="1" data-orientation="horizontal">');
+            $(container).append('<input class="range-slider" id="slider" type="range" max="11" step="1" data-orientation="horizontal">');
             $(container).append('<button class="skip" id="reverse" title="Reverse">Reverse</button>');
-            $(container).append('<button class="skip" id="forward" title="Forward">Skip</button>');
-            $(container).on('mousedown dblclick', function(e){
+            $(container).append('<button class="skip" id="forward" title="Forward">Forward</button>');
+            $(container).on('mousedown', function(e){
+                console.log("You clicked in the box");
                 L.DomEvent.stopPropagation(e);
-                map.dragging.disable();
             });
+            // map.dragging.disable();
             return container;
         }
     });
+    console.log("About to make that listener...");
     map.addControl(new SequenceControl());
 };
+
+function createSequenceControlListeners(map, attributes) {
+    $('#slider').click(function(){
+        var index = $(this).val();
+        updatePropSymbols(map, attributes[index]);
+    });
+}
+
 //create temporal legend
 function createLegend(map, attributes){
     var LegendControl = L.Control.extend({
@@ -89,23 +99,27 @@ function createLegend(map, attributes){
        },
        onAdd: function(map){
            var container = L.DomUtil.create('div', 'legend-control-container');
-           $(container).append('<div id="temporal-legend">');
-
-
+           $(container).append('<input class="legend-control-container" id="legend">');
+           $(container).on('mousedown', function(e){
+            console.log("You clicked in the box");
+            L.DomEvent.stopPropagation(e);
+        });
+        //    grades = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24];
+        //    labels = [];
            return container;
        } 
     });
     map.addControl(new LegendControl());
 };
 
-// resizing proprtional symbosl according to new attributes
+// resizing proprtional symbols according to new attributes
 function updatePropSymbols(map, attributes) {
     map.eachLayer(function(layer){
         if (layer.feature && layer.feature.properties[attributes]){
             var props = layer.feature.properties;
             var radius = calcPropRadius(props[attributes]);
             layer.setRadius(radius);
-            var popupContent = "<p><b>" + feature.properties.city + ': </b>' + '\xa0' + feature.properties[attributes] + '\xa0' + "clear days </p>";
+            var popupContent = "<p><b>" + layer.feature.properties.city + ': </b>' + '\xa0' + layer.feature.properties[attributes] + '\xa0' + "clear days </p>";
             layer.bindPopup(popupContent,{
                 offset: new L.Point(0, -radius)        
             });
@@ -146,6 +160,7 @@ function processData(data){
     };
     //holds jan-dec
     return attributes;
+
  };
 
 
@@ -157,8 +172,9 @@ function getData(map){
         success: function(response){
             var attributes = processData(response);
             //call function to create proportional symbols
-            createPropSymbols(response, map, attributes);
+            createPropSymbols(response, map, attributes, 0);
             createSequenceControls(map, attributes);
+            createSequenceControlListeners(map, attributes);
             createLegend(map, attributes);
         }
     });
