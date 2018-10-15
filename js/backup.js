@@ -1,6 +1,6 @@
 //create map
 function createMap(){
-    var map=L.map('mapid').setView([36.0902, -95.7129],5);
+    var map=L.map('mapid').setView([36.0902, -95.7129],4.15);
 
     //add tilelayer
 L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
@@ -25,7 +25,7 @@ function createPropSymbols(data, map, attributes, index){
 // calculate the radius of each proportional symbol
 function calcPropRadius(attValue){
     var scaleFactor = 50;
-    var area = attValue * scaleFactor;
+    var area = Math.pow(attValue, 1.5) * scaleFactor;
     var radius = Math.sqrt(area/Math.PI);
     return radius;
 };
@@ -61,6 +61,28 @@ function pointToLayer(feature, latlng, attributes, index){
     });
     return layer;
 };
+//create search bar
+function createSearchBar(map, attributes){
+    var searchLayer = L.Control.extend({
+        options: {
+            position: 'topright'
+        },
+        onAdd: function(map){
+            var container = L.DomUtil.create('div', 'search-bar-container');
+            $(container).append('<input class="search-bar" id="search-bar" title="Search Bar">');
+        }
+    });
+    require([
+        "leaflet",
+        "leafletSearch"
+    ], function(L, LeafletSearch){
+        map.addControl(new LeafletSearch({
+            layer: datalayer
+        }) );
+    });
+};
+    
+
 //create new sequence controls on the map
 function createSequenceControls(map, attributes){
     var SequenceControl = L.Control.extend({
@@ -68,28 +90,62 @@ function createSequenceControls(map, attributes){
             position: 'bottomleft'
         },
         onAdd: function(map){
+            var outerContainer = L.DomUtil.create('div', 'instruction-wrapper');
             var container = L.DomUtil.create('div', 'sequence-control-container');
-            $(container).append('<input class="range-slider" id="slider" type="range" max="11" step="1" data-orientation="horizontal">');
-            $(container).append('<button class="skip" id="reverse" title="Reverse">Reverse</button>');
-            $(container).append('<button class="skip" id="forward" title="Forward">Forward</button>');
-            $(container).on('mousedown', function(e){
-                console.log("You clicked in the box");
+            $(container).append('<input class="range-slider sequence-control-item" id="month-slider" type="range" value="0" max="11" step="1" data-orientation="horizontal">');
+            $(container).append('<button class="previous sequence-control-item" id="previous" title="Previous">Previous</button>');
+            $(container).append('<button class="next sequence-control-item" id="next" title="Next">Next</button>');
+            $(container).append('<div class="label-wrapper sequence-control-item"><div id="currentMonthText" class="month-label">January</div></div>');
+            $(container).mousedown(function(e){
                 L.DomEvent.stopPropagation(e);
+                map.dragging.disable();
             });
-            // map.dragging.disable();
-            return container;
+            $(outerContainer).append('<div id="instruction" class="instruction">Clear Days By Month</div>');
+            $(outerContainer).append(container);
+            return outerContainer;
         }
     });
     console.log("About to make that listener...");
     map.addControl(new SequenceControl());
 };
 
-function createSequenceControlListeners(map, attributes) {
-    $('#slider').click(function(){
+function addSequenceControlListeners(map, attributes) {
+    $('#month-slider').click(function(){
         var index = $(this).val();
+        $('#currentMonthText').text(getCurrentMonth(index));
         updatePropSymbols(map, attributes[index]);
     });
+    $('#next').click(function(){
+        var newIndex = parseInt($('#month-slider').val()) + 1;
+        $('#month-slider').val(newIndex).slider;
+        $('#currentMonthText').text(getCurrentMonth(newIndex));
+        updatePropSymbols(map, attributes[newIndex]);
+    });
+    $('#previous').click(function(){
+        var newIndex = parseInt($('#month-slider').val()) - 1;
+        $('#month-slider').val(newIndex).slider;
+        $('#currentMonthText').text(getCurrentMonth(newIndex));
+        updatePropSymbols(map, attributes[newIndex]);
+    });
 }
+
+function getCurrentMonth (index) {
+    var monthArray = [
+        "January",
+        "Feburary",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December",
+    ];
+    return monthArray[index];
+};
 
 //create temporal legend
 function createLegend(map, attributes){
@@ -99,18 +155,55 @@ function createLegend(map, attributes){
        },
        onAdd: function(map){
            var container = L.DomUtil.create('div', 'legend-control-container');
-           $(container).append('<input class="legend-control-container" id="legend">');
-           $(container).on('mousedown', function(e){
-            console.log("You clicked in the box");
-            L.DomEvent.stopPropagation(e);
-        });
-        //    grades = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24];
-        //    labels = [];
+           $(container).append('<div id="temporal-legend">');
+           var svg = '<svg id="attribute-legend" width="180px" height="180px">';
+           var circles = ["max", "mean", "min"];
+           for (var i=0; i<circles.length; i++){
+               svg += '<circle class="legend-circle" id="' + circles[i] + '" fill=#F47821" fill-opacity="0.8" stroke="#000000" cx="90"/>';
+           };
+           svg += "</svg>";
+           $(container).append(svg);
            return container;
        } 
     });
     map.addControl(new LegendControl());
+    updateLegend(map, attributes[0]);
 };
+ function updateLegend(map, attribute){
+     var month = attribute;
+     var content = "Clear Days in " + month;
+     $('#temporal-legend').html(content);
+     var circleValues = getCircleValues(map, attribute);
+     for (var key in circleValues){
+         var radius = calcPropRadius(circleValues[key]);
+         $('#'+key).attr({
+             cy: 179 - radius,
+             r: radius
+         });
+     };
+ };
+
+ function getCircleValues(map, attribute){
+     var min = Infinity,
+         max = -Infinity;
+    map.eachLayer(function(layer){
+        if(layer.feature){
+            var attributeValue = Number(layer.feature.properties[attribute]);
+            if(attributeValue < min){
+                min=attributeValue;
+            };
+            if(attributeValue > max){
+                max=attributeValue;
+            };
+        };
+    });
+    var mean = (max + min)/2;
+    return {
+        max: max,
+        mean: mean,
+        min: min
+    };
+ };
 
 // resizing proprtional symbols according to new attributes
 function updatePropSymbols(map, attributes) {
@@ -174,8 +267,9 @@ function getData(map){
             //call function to create proportional symbols
             createPropSymbols(response, map, attributes, 0);
             createSequenceControls(map, attributes);
-            createSequenceControlListeners(map, attributes);
+            addSequenceControlListeners(map, attributes);
             createLegend(map, attributes);
+            createSearchBar(map,attributes);
         }
     });
 };

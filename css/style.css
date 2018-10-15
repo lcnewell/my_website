@@ -5,30 +5,25 @@ body {
 }
 
 #mapid {
-    height: 100%;
-    width: 100%;
+    height: 80%;
+    width: 88%;
     margin: 0px auto;
     position: center;
     padding: 5px;
     border: 1px solid blue;
     display: inline-block;
 }
-
-#panel {
-    width: 20%;
-    padding: 20px;
-    display: inline-block;
-	vertical-align: bottom;
-    text-align: center;
-    line-height: 42px;
-}
-
 #outerdiv {
-    width: 80%;
-    height: 80%;
-    position: fixed;
+    background: rgba(0,0,0,.9);
+    height: 100%;
+    width: 95%;
+    padding: 20px;
+    position: absolute;
     text-align: center;
+    width: 100%;
 }
+
+
 header.global{
     padding: 1px;
 }
@@ -42,16 +37,29 @@ header {
 
 
  .range-slider {
-     width: 45%;
+     flex-basis: 30%;
+     order: 2;
  }
 
- #skip {
-     float: right;
+ .next {
+     order: 3;
+     flex-basis: 20%;
+     font-family: 'cabinregular', sans-serif;
  }
 
- #reverse {
-     float: left;
+ .previous {
+     order: 1;
+     flex-basis: 20%;
+     font-family: 'cabinregular', sans-serif;
  }
+.instruction-wrapper{
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: left;
+    font-family: 'cabinregular', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
 .sequence-control-container{
     width: 350px;
     height: 30px;
@@ -60,7 +68,26 @@ header {
     line-height: 45px;
     text-align: center;
     border: solid gray 1px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
 }
+
+.label-wrapper{
+    order: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 30%;
+}
+
+.month-label{
+    font-size: 16px;
+    font-family: 'cabinregular', sans-serif;
+}
+
 .search-bar{
     width: 200px;
     height: 20px;
@@ -69,11 +96,11 @@ header {
 .leaflet-popup-content p {
     font-family: 'cabinregular', sans-serif;
     font-size: 12px;
-};
+}
 
 .legend-control-container{
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 70px;
     background-color: rgba(255,255,255,0.8);
     padding: 10px;
     text-align: left;
