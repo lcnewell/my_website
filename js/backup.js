@@ -35,7 +35,7 @@ function calcPropRadius(attValue){
 function pointToLayer(feature, latlng, attributes, index){
     var attribute = attributes[index];
     var options = {
-        fillColor: "#c51b8a",
+        fillColor: "#ffffb3",
         color: "#000",
         weight: 1,
         opacity: 1,
@@ -61,28 +61,38 @@ function pointToLayer(feature, latlng, attributes, index){
     });
     return layer;
 };
-//create search bar
-function createSearchBar(map, attributes){
-    var searchLayer = L.Control.extend({
+
+//create filter controls 
+function createFilterControls(map, attributes){
+    var FilterControl = L.Control.extend({
         options: {
             position: 'topright'
         },
         onAdd: function(map){
-            var container = L.DomUtil.create('div', 'search-bar-container');
-            $(container).append('<input class="search-bar" id="search-bar" title="Search Bar">');
+            var container = L.DomUtil.create('div', 'filter-control-container');
+            $(container).append('<nav class="menu-ui"><a href="#" class="active" data-filter="all">Show all</a><a href="#" data-filter="greaterthan5">>5 Clear Days</a><a href="#" data-filer="greaterthan10">>10 Clear Days</a><a href="#" data-filter="greaterthan20">>20 Clear Days</a></nav>');
+            return container;
         }
     });
-    require([
-        "leaflet",
-        "leafletSearch"
-    ], function(L, LeafletSearch){
-        map.addControl(new LeafletSearch({
-            layer: datalayer
-        }) );
-    });
-};
-    
+    map.addControl(new FilterControl());
+}
 
+//create filter control listeners
+function filterFeature(data, map, attributes){
+    $('.menu-ui a').on('click', function() {
+        // For each filter link, get the 'data-filter' attribute value.
+        var filter = $(this).data('filter');
+        $(this).addClass('active').siblings().removeClass('active');
+        markers.setFilter(function(f) {
+            // If the data-filter attribute is set to "all", return
+            // all (true). Otherwise, filter on markers that have
+            // a value set to true based on the filter name.
+            const index = $('#month-slider').val();
+            return f.properties[index] > 5;
+        });
+        return false;
+    });
+}
 //create new sequence controls on the map
 function createSequenceControls(map, attributes){
     var SequenceControl = L.Control.extend({
@@ -105,27 +115,29 @@ function createSequenceControls(map, attributes){
             return outerContainer;
         }
     });
-    console.log("About to make that listener...");
     map.addControl(new SequenceControl());
 };
-
+//create sequence control listeners
 function addSequenceControlListeners(map, attributes) {
     $('#month-slider').click(function(){
         var index = $(this).val();
         $('#currentMonthText').text(getCurrentMonth(index));
         updatePropSymbols(map, attributes[index]);
+        updateLegend(map, attributes[index]);
     });
     $('#next').click(function(){
         var newIndex = parseInt($('#month-slider').val()) + 1;
         $('#month-slider').val(newIndex).slider;
         $('#currentMonthText').text(getCurrentMonth(newIndex));
         updatePropSymbols(map, attributes[newIndex]);
+        updateLegend(map, attributes[newIndex]);
     });
     $('#previous').click(function(){
         var newIndex = parseInt($('#month-slider').val()) - 1;
         $('#month-slider').val(newIndex).slider;
         $('#currentMonthText').text(getCurrentMonth(newIndex));
         updatePropSymbols(map, attributes[newIndex]);
+        updateLegend(map, attributes[newIndex]);
     });
 }
 
@@ -158,8 +170,9 @@ function createLegend(map, attributes){
            $(container).append('<div id="temporal-legend">');
            var svg = '<svg id="attribute-legend" width="180px" height="180px">';
            var circles = ["max", "mean", "min"];
+           console.log = "making a legend...";
            for (var i=0; i<circles.length; i++){
-               svg += '<circle class="legend-circle" id="' + circles[i] + '" fill=#F47821" fill-opacity="0.8" stroke="#000000" cx="90"/>';
+               svg += '<circle class="legend-circle" id="' + circles[i] + '" fill="#ffffb3" fill-opacity="0.8" stroke="#000000" cx="75"/>';
            };
            svg += "</svg>";
            $(container).append(svg);
@@ -169,15 +182,15 @@ function createLegend(map, attributes){
     map.addControl(new LegendControl());
     updateLegend(map, attributes[0]);
 };
- function updateLegend(map, attribute){
-     var month = attribute;
+ function updateLegend(map, attributes){
+     var month = attributes;
      var content = "Clear Days in " + month;
      $('#temporal-legend').html(content);
-     var circleValues = getCircleValues(map, attribute);
+     var circleValues = getCircleValues(map, attributes);
      for (var key in circleValues){
          var radius = calcPropRadius(circleValues[key]);
          $('#'+key).attr({
-             cy: 179 - radius,
+             cy: 105 - radius,
              r: radius
          });
      };
@@ -269,7 +282,7 @@ function getData(map){
             createSequenceControls(map, attributes);
             addSequenceControlListeners(map, attributes);
             createLegend(map, attributes);
-            createSearchBar(map,attributes);
+            createFilterControls(map, attributes);
         }
     });
 };
