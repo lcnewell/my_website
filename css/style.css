@@ -13,6 +13,7 @@ body {
     border: 1px solid blue;
     display: inline-block;
 }
+
 #outerdiv {
     background: rgba(0,0,0,.9);
     height: 100%;
