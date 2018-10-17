@@ -82,6 +82,19 @@ function createFilterControls(map, attributes){
             data-filter="all">Show all</a><a href="#" data-filter="greaterthan5" class="gt5">>5 \
             Clear Days</a><a href="#" data-filer="greaterthan10" class="gt10">>10 Clear Days</a><a \
             href="#" data-filter="greaterthan20" class="gt20">>20 Clear Days</a></nav>');
+            //enable and disables map functions while using controls
+            container.addEventListener('mousedown', function() {
+                map.dragging.disable();
+            });
+            container.addEventListener('mouseup', function() {
+                map.dragging.enable();
+            });
+            container.addEventListener('mouseover', function() {
+                map.doubleClickZoom.disable();
+            });
+            container.addEventListener('mouseout', function(){
+                map.doubleClickZoom.enable();
+            });
             return container;
         }
     });
@@ -232,6 +245,19 @@ function createLegend(map, attributes){
            };
            svg += "</svg>";
            $(container).append(svg);
+            //enable and disables map functions while using controls
+            container.addEventListener('mousedown', function() {
+                map.dragging.disable();
+            });
+            container.addEventListener('mouseup', function() {
+                map.dragging.enable();
+            });
+            container.addEventListener('mouseover', function() {
+                map.doubleClickZoom.disable();
+            });
+            container.addEventListener('mouseout', function(){
+                map.doubleClickZoom.enable();
+            });
            return container;
        } 
     });
